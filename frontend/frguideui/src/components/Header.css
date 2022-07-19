@@ -1,0 +1,42 @@
+/*--------head------------*/
+.head {
+    justify-content: space-between;
+    display: flex;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+
+  
+  .title-word-1 {
+    --color-1: #DA0037;
+    --color-2: #D8E9A8;
+    --color-3: #1597BB;
+  }
+  
+  .title-word-2 {
+    --color-1: #EDEDED;
+    --color-2: #C84B31;
+    --color-3: #816797;
+  }
+
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: -10px;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }

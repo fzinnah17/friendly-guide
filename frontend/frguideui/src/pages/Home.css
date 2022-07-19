@@ -1,0 +1,25 @@
+.mainSection {
+    background-image: url("/Volumes/Seagate/Github/friendly-guide/frontend/frguideui/src/assets/homepagebg.jpg");
+    filter: blur(6px);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Specific to this particular image */
+    .mainSection {
+        left: 50%;
+        margin-left: -1024px;
+        /* 50% */
+    }
+}
